@@ -14,13 +14,13 @@
   /* Style the header */
   header {
     background-color: #333;
-    color: #fff;
+    color: #7d1b1b;
     padding: 20px;
   }
   
   /* Style the navigation menu */
   nav {
-    background-color: #ccc;
+    background-color: #642121;
     display: flex;
     justify-content: center;
   }
@@ -43,7 +43,7 @@
   
   nav a:hover {
     background-color: #333;
-    color: #fff;
+    color: #4f1b1b;
   }
   
   /* Style the main content */
@@ -51,8 +51,8 @@
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #f7f7f7;
-    box-shadow: 0 0 5px #ccc;
+    background-color: #0b1470;
+    box-shadow: 0 0 5px #119850;
   }
   
   main h2 {
@@ -73,7 +73,7 @@
   /* Style the footer */
   footer {
     background-color: #333;
-    color: #fff;
+    color: #a3b914;
     padding: 10px;
     text-align: center;
   }
