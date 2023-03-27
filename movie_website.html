@@ -9,15 +9,15 @@
 <body>
     <header>
         <nav>
+            <h1>Cineb</h1>
             <img src="https://cineb.net/images/group_3/theme_3/logo.png?v=0.1" alt="" width="40 px" height="40px">
             <ol>
-                <li><a href="https://www.realestate.com.au/blog/images/2000x1500-fit,progressive/2021/11/24151024/Rawson_Facade2_2000x1500.jpg">Home</a></li>
-                <li><a href="https://image.vietnamnews.vn/uploadvnnews/Article/2018/8/23/06-hocsinh70492743PM.jpg">Class</a></li>
-                <li><a href="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/characters-from-atack-on-titan-naruto-and-my-hero-academia.jpg">Surprise</a></li>
+                <li><a href="#container1">Home</a></li>
+                <li><a href="#samyog">Surprise</a></li>
             </ol>
         </nav>
     </header>
-    <section>
+    <section id="container1">
         <form>
             <label>Username</label>
             <input type="text" required>
@@ -25,12 +25,58 @@
             <label>Password</label>
             <input type="password" required>
             <br><br>
-            <button type="submit">Login</button>
-            <p>Have an account?<a href="https://t3.ftcdn.net/jpg/02/70/18/08/360_F_270180878_mpY6tOMJ5BegkXytgSPCTebZ7wf9SH25.jpg">Login</a></p>
-            <p>Forget Account?<a href=""></a></p>
+            <button class="btn" type="submit">Login</button>
+            <p>Have an account?<a href="login.html">Login</a></p>
+            <br><br>
+            <p>Forget Account?<a href="https://t3.ftcdn.net/jpg/02/70/18/08/360_F_270180878_mpY6tOMJ5BegkXytgSPCTebZ7wf9SH25.jpg">tap here</a></p>
+<style>
+    input:focus{
+        background-color:cadetblue;
+    }
+    input:hover{
+        background-color: crimson;
+    }
+    input:hover{
+        font-size: 200%;
+        transition: 2s ease-in-out;
+    }
+    .btn{
+        background-color: rgb(73, 222, 73);
+        color: white;
+        padding: 10px;
+        min-width: 80px;
+        border-radius: 6px;
+        font-size: larger;
+        font-weight: bold;
+    }
+    .btn:hover{
+        background:rgb(0, 69, 0);
+        font-weight: bolder;
+        transition: ease-in .5s;
+    }
+    input [type="text"]{
+        background-color:crimson;
+    }
+    
+</style>
+
+
+<style>
+    #samyog h1{
+        color:blue;
+    }
+    aside {
+        width:38%;
+        padding-left: 15px;
+        padding-left: 15px;
+        float: left;
+        font-style: italic;
+        background-color: aqua;
+    }
+</style>
 
         </form>
-    </section>
+    </section #samyog>
     <H1>Lets Get started with:</H1>
     <H1>Movies:</H1>
     <table border 2>
@@ -42,7 +88,7 @@
         <tr>
             <td><h2>John Wick</h2></td>
             <td><img src="https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg" alt=""></td>
-            <td><p>John Wick is a 2014 American action thriller film directed by Chad Stahelski and written by Derek Kolstad. Its story follows John Wick (Keanu Reeves), a legendary hitman who is forced out of retirement to seek revenge against the men who killed his puppy, a final gift from his recently deceased wife. John Wick also stars Michael Nyqvist, Alfie Allen, Adrianne Palicki, Bridget Moynahan, Dean Winters, Ian McShane, John Leguizamo, and Willem Dafoe.
+            <td><p style="color: brown;">John Wick is a 2014 American action thriller film directed by Chad Stahelski and written by Derek Kolstad. Its story follows John Wick (Keanu Reeves), a legendary hitman who is forced out of retirement to seek revenge against the men who killed his puppy, a final gift from his recently deceased wife. John Wick also stars Michael Nyqvist, Alfie Allen, Adrianne Palicki, Bridget Moynahan, Dean Winters, Ian McShane, John Leguizamo, and Willem Dafoe.
 
                 Kolstad's script drew on his interest in action, revenge, and neo-noir films. Titled Scorn, the rights were purchased by producer Basil Iwanyk as his first independent film production. Reeves, who was experiencing a career lull, liked the script and recommended experienced stunt and action choreographers, Stahelski and David Leitch direct the action scenes. Instead, the pair successfully lobbied to co-direct John Wick. Despite the project nearly being cancelled weeks prior to filming, principal photography began on October 7, 2013, on a $20–$30 million budget. Stahelski and Leitch focused on highly-choreographed, long single takes to convey their action, eschewing the rapid cuts and closeup shots of contemporary action films. Iwanyk struggled to secure theatrical distributors, as industry executives were dismissive of an action film by first-time directors and Reeves's recent filmography had underperformed. The distribution rights were eventually purchased by Lionsgate Films and a release date scheduled only two months later for October 24, 2014.
                 
@@ -51,7 +97,7 @@
                 John Wick is now considered one of the greatest action films ever made. Its unexpected success led to the John Wick franchise, one of the most successful action franchises, which comprises three sequels, John Wick: Chapter 2 (2017), John Wick: Chapter 3 – Parabellum (2019), and John Wick: Chapter 4 (2023), as well as video games and comic books. The franchise includes the upcoming spin-off film Ballerina and television series The Continental. John Wick has been influential on action films. It is seen as having revitalized the genre, popularizing long single takes with choreographed and detailed action.</p></td>
         </tr>
         <tr>
-            <td><h2>Kung Fu Panda</h2></td>
+            <td><h2 style="font-size: xx-large;">Kung Fu Panda</h2></td>
             <td><img src="https://upload.wikimedia.org/wikipedia/en/7/76/Kungfupanda.jpg" alt=""></td>
             <td><p>Kung Fu Panda is a 2008 American computer-animated martial arts comedy film produced by DreamWorks Animation and distributed by Paramount Pictures. The first installment in the Kung Fu Panda franchise, it was directed by John Stevenson (in his feature directorial debut) and co-directed by Mark Osborne, from a screenplay by the writing team of Jonathan Aibel and Glenn Berger, and a story by Ethan Reiff and Cyrus Voris. The film stars the voices of Jack Black, Dustin Hoffman, Angelina Jolie, Ian McShane, Seth Rogen, Lucy Liu, David Cross, Randall Duk Kim, James Hong, Dan Fogler, Michael Clarke Duncan, and Jackie Chan. The film, set in a version of ancient China populated by anthropomorphic animals, centers on a bumbling panda named Po (Black), a kung-fu enthusiast. When a notorious snow-leopard named Tai Lung (McShane) is foretold to escape at Chorh-Gom Prison, Po is unwittingly named the "Dragon Warrior"—a prophesied hero worthy of reading a scroll said to grant its reader limitless power.[4]
 
@@ -151,5 +197,7 @@
         <i class="fa-brands fa-instagram"></i>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-PIe3k_-6UI2JktJ-VRSl65okOvF33Eo1DrNvDQ0lhA&s" alt="ing of facebook" width="20px" height="20px">
     </footer>
+    </select>
+
 </body>
 </html>
