@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url("https://cdn.marvel.com/u/prod/marvel/images/OpenGraph-TW-1200x630.jpg");
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    color: azure;
+
+    
+
+}
+a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+ol{
+    list-style-type: none;
+}
